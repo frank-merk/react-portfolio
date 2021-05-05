@@ -1,2 +1,2 @@
-# react-portfolio
+# React-Portfolio
 Rebuilding Portfolio using React
