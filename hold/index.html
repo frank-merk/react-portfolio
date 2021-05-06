@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Frank Merchlewitz</title>
+        <!-- Reset and Bootsrap Styles -->
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Navbar header with collapsable "hamburger" on responsive -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Frank Merchlewitz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+        </header>
+        <!--End Header-->
+        <!-- Hero Image -->
+        <figure class="hero-image" title="Frank Merchlewitz Banner Image">
+            <figcaption class="hero-text">
+                <h2>Allow me to be Frank</h2>
+                <p>Because that's my name</p>
+            </figcaption>
+        </figure>
+        <!-- Main content section -->
+        <main class="container">
+            <h1>About Me</h1>
+            <div class = "row">
+                <div class="col-xl-9">
+                    <section class="col-md-12">
+                        <!-- Bio -->
+                        <article>
+                            <p>
+                            My Name is Frank Merchlewitz, and I'm a musician and video producer from Minneapolis, Minnesota. I grew up in Winona, Minnesota, and graduated from Drake University in Des Moines, Iowa, in 2010 with bachelor's degrees in Writing and Electronic Media and a minor in Jazz Studies. My current role is as Digital Producer for the Minnesota Orchestra, filming concerts and working post-production on our live concert broadcasts.
+                            </p>
+                            <p>
+                            I'm interested in a lot of things, but mostly I'm a jack-of-all-trades, master-of-none. That suits me well enough. I love tinkering with electronics like Raspberry Pi, woodworking, crossword puzzles, cooking, and of course, music. Before the great Covidification of the world in 2020, I played keyboards in about a dozen bands across the Twin Cities Metro, including General B & The Wiz, A Little Too Short To Be Stormtroopers, The 4onthefloor, Radiochurch, The Maytags, and so on. Someday, I'll play in those bands again someday, maybe! Until then, I will introduce to my ride or die companions through all this mess.
+                            </p>
+                        </article>
+                    </section>
+                    <!-- About my beautiful boys/cat stats -->
+                    <section class="row row-no-gutters">
+                        <figure class="col-md-6">
+                            <img src ="Assets/Smokey.jpg" alt="Smokey The Cat" />
+                            <figcaption>
+                                <h3>Smokey Robinson</h3>
+                            </figcaption>
+                            <h4>Stats</h4>
+                            <ul>
+                                <li>Weight: 14 lbs</li>
+                                <li>Color: Grey</li>
+                                <li>Volume: loud</li>
+                                <li>Acceleration: unknown</li>
+                                <li>Hunger: Insatiable</li>
+                            </ul>
+                        </figure>
+                        <figure class="col-md-6">
+                            <img src="Assets/stevens.jpg" alt="Stevens The Cat" />
+                            <figcaption>
+                            <h3>(Cat) Stevens</h3>
+                            </figcaption>
+                            <h4>Stats</h4>
+                            <ul>
+                                <li>Weight: 7 lbs</li>
+                                <li>Color: Orange guy</li>
+                                <li>Volume: Soft</li>
+                                <li>Neurosis: Extreme</li>
+                                <li>Hunger: Satiable</li>
+                            </ul>
+                        </figure>
+                    </section>
+                </div>
+                <!-- End Main Content Section -->
+                <!-- Sidebar content with links to some bands I'm in -->
+                <aside class="col-xl-3">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Links</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Things I'm working on</h6>
+                        <p class="card-text">I'm a pretty busy guy! Check out some of my other projects.</p>
+                        <ul>
+                            <li><a href="http://generalbandthewiz.com/" title="General B and The Wiz Website" target="_blank" class="card-link">General B & The Wiz</a></li>
+                            
+                            <li><a href="http://www.aliandthescoundrels.com/" class="card-link" title="Ali & The Scoundrels" target="_blank">Ali & The Scoundrels</a></li>
+                            
+                            <li><a href="https://www.facebook.com/ALittleTooShortToBeStormtroopers/" title="A Little Too Short to be Stormtroopers Facebook" target="_blank">A Little Too Short to Be Stormtroopers</a></li>
+                    
+                            <li><a href="http://frankmerchlewitz.com/" class="card-link" title="Frank Merchlewitz Personal Website" target="_blank">Personal Website</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <div class="clearfix"></div>
+        <!-- End of main content section. "Clearfix" solution from bootstrap sets up a clean sticky footer below-->
+        <footer class="footer">
+            <article class="col-sm-9 legal">
+              <p>All rights Reserved © Frank Merchlewitz 2020</p>
+            </article>
+            <article class="col-sm-3 social">
+                <a href="https://www.facebook.com/franky.merchlewitz"><i class="fa fa-facebook-square fa-3x socialScale"></i></a> 
+                <a href="https://twitter.com/GBandTheWiz"><i class="fa fa-twitter-square fa-3x socialScale"></i></a>
+                <a href="mailto:jlimhb@gmail.com"><i class="fa fa-envelope-square fa-3x socialScale"></i></a>
+                <a href="https://www.instagram.com/frankymoscow/"><i class="fa fa-instagram fa-3x socialScale"></i></a>
+            </article>
+        </footer>
+        <!--JavaScript and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
