@@ -4,15 +4,15 @@ import "./App.css";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-// import Nav from "./components/Nav";
-// import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <Router>
       <div>
-      {/* <Nav /> */}
+      <Nav />
       <Switch>
         <Route exact path={["/", "/home"]}>
           <Home />
@@ -24,7 +24,7 @@ function App() {
           <Portfolio />
         </Route>
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
       </div>
   </Router>
   );
