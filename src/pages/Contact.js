@@ -7,61 +7,38 @@ import "./style.css";
 function Contact() {
   
       return (
-        <div>
-        <figure class="hero-image" title="Frank Merchlewitz Banner Image">
-            <figcaption class="hero-text">
-                <h2>Allow me to be Frank</h2>
-                <p>Because that's my name</p>
-            </figcaption>
-        </figure>
-
-        <main className="container">
-            <h1>About Me</h1>
-        <div className="row">
-          <div className="col-xl-9">
-            <section class="col-md-12">
+        <div className="container">
+          <div>
+        <h1>Contact</h1>
+        </div>
+        
+            <section className="col-md-12">
               <article>
               <p>
-                 My Name is Frank Merchlewitz, and I'm a musician and video producer from Minneapolis, Minnesota. I grew up in Winona, Minnesota, and graduated from Drake University in Des Moines, Iowa, in 2010 with bachelor's degrees in Writing and Electronic Media and a minor in Jazz Studies. My current role is as Digital Producer for the Minnesota Orchestra, filming concerts and working post-production on our live concert broadcasts.
-                 <p> I'm interested in a lot of things, but mostly I'm a jack-of-all-trades, master-of-none. That suits me well enough. I love tinkering with electronics like Raspberry Pi, woodworking, crossword puzzles, cooking, and of course, music. Before the great Covidification of the world in 2020, I played keyboards in about a dozen bands across the Twin Cities Metro, including General B & The Wiz, A Little Too Short To Be Stormtroopers, The 4onthefloor, Radiochurch, The Maytags, and so on. Someday, I'll play in those bands again someday, maybe! Until then, I will introduce to my ride or die companions through all this mess.</p>
-                 </p>
+              I'm available for freelance work producing music or video.
+              </p>
+              <h3>Get in Touch!</h3>
               </article>
-            </section>
-            <section className = "row row-no-gutters">
-                <figure className = "col-md-6">
-                    <img className="img img thumbnail icon" src={SmokeyCat} alt ="Smokey" />
-                <figcaption>
-                    <h3>Smokey Robinson</h3>
-                    </figcaption>
-                    <h4>Stats</h4>
-                    <ul>
-                        <li>Weight: 14 lbs</li>
-                        <li>Color: Grey</li>
-                        <li>Volume: loud</li>
-                        <li>Acceleration: unknown</li>
-                        <li>Hunger: Insatiable</li>
-                    </ul>
-                </figure>
-                <figure className="col-md-6">
-                    <img src={StevensCat} alt="Stevens The Cat" />
-                    <figcaption>
-                    <h3>(Cat) Stevens</h3>
-                    </figcaption>
-                    <h4>Stats</h4>
-                    <ul>
-                        <li>Weight: 7 lbs</li>
-                        <li>Color: Orange guy</li>
-                        <li>Volume: Soft</li>
-                        <li>Neurosis: Extreme</li>
-                        <li>Hunger: Satiable</li>
-                    </ul>
-                </figure>
-                
-            </section>
-          </div>
-        </div>
-      </main>
-      </div>
+            <section className = "row">
+          
+                <article className="col-md-6">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg> 
+                    <b>Email</b>: <a href="mailto:fmerchlewitz@mnorch.org" title="Frank Merchlewitz Work Email">fmerchlewitz@mnorch.org</a>
+                    </p>
+                    <p><b>OR: </b><a href="mailto:fmerchlewitz@outlook.org" title="Frank Merchlewitz Personal Email">fmerchlewitz@outlook.edu</a></p>
+                </article>
+                <article className="col-sm-6">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-phone" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                        <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg> <b>Phone:</b> 507-450-6019
+                    </p>   
+                </article>
+                </section>
+                </section>
+                </div>         
       );
     }
   
