@@ -1,7 +1,13 @@
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap'
 function Videos(props) {
     return(
-        console.log("Hello")
+       
+              <Col md="6">
+                  <iframe className="spotify" src = {props.iframeTag} allowfullscreen allow="encrypted-media"></iframe>
+              </Col>
+             
+    
     )
 }
 

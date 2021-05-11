@@ -1,19 +1,21 @@
 import React from "react";
+import { ImageBackground, Text, View } from "react-native";
 import SmokeyCat from '../Assets/Smokey.jpg';
 import StevensCat from '../Assets/stevens.jpg';
-import "./style.css";
+import styles from "./style.css";
+import reactDom from 'react-dom';
+const image = { uri: "https://frank-merk.github.io/bootcamp-03-homework/Assets/bkgdImage.jpg" };
 
 
 function Home() {
   
       return (
         <div>
-        <figure class="hero-image" title="Frank Merchlewitz Banner Image">
-            <figcaption class="hero-text">
-                <h2>Allow me to be Frank</h2>
-                <p>Because that's my name</p>
-            </figcaption>
-        </figure>
+     <View style = {styles.container}>
+         <ImageBackground source = {image} style = {styles.image}>
+             <Text style={styles.text}>Inside</Text>
+         </ImageBackground>
+     </View>
 
         <main className="container">
             <h1>About Me</h1>
@@ -64,5 +66,8 @@ function Home() {
       </div>
       );
     }
-  
+    
+      
 export default Home;
+
+  

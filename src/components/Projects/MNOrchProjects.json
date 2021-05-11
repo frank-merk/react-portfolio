@@ -1,19 +1,10 @@
 [
-      {
-        "id": 3,
-        "title": "Work Day Scheduler App",
-        "description": "This project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code, powered by HTML, CSS, jQuery, and a third party time-keeping API. The user should see the current date, and a calendar time-block with inputs for scheduling each hour. User input is stored to local storage. Those elements should be dynamically styled relative to the current time of day. The original project called to use moment.js, but I chose to use another recommended platform, luxon.",
-        "imageUrl": "https://raw.githubusercontent.com/frank-merk/05-Third-Party-APIs-Assignment/main/Assets/WorkDayScheduler1.PNG",
-        "altTag": "Third Party API Assignment",
-        "iframeTag": "",
-        "githubLink": "https://github.com/frank-merk/05-Third-Party-APIs-Assignment",
-        "liveLink": "https://frank-merk.github.io/05-Third-Party-APIs-Assignment/"
-      },
+      
       {
         "id": 4,
         "title": "Behind The Scenes",
         "description": "I recently completed this project highlighting the behind the scenes work to produce    <i>This is Minnesota Orchestra</i>. Go behind the scenes to experience the making of a Minnesota Orchestra broadcast concert with partners Classical Minnesota Public Radio and Twin Cities PBS.",
-        "imageUrl": "Assets/BehindTheScenes.gif",
+        "imageUrl": "https://frank-merk.github.io/bootcamp-03-homework/Assets/BehindTheScenes.gif",
         "altTag": "Behind the Scenes at Minnesota Orchestra",
         "iframeTag": "",
         "githubLink": "",
@@ -23,7 +14,7 @@
         "id": 5,
         "title": "Beethoven's First Symphony",
         "description": "Minnesota Orchestra performed Beethoven's First Symphony on November 20, 2020. I was part of the production and post-crew on this show. Beethoven’s First Symphony is full of crisp melodies and quick turns of phrase, as well as musical “inside jokes.”",
-        "imageUrl": "Assets/Beethoven.jpg",
+        "imageUrl": "https://frank-merk.github.io/bootcamp-03-homework/Assets/Beethoven.jpg",
         "altTag": "Beethoven's First Symphony",
         "iframeTag": "",
         "githubLink": "",
@@ -33,7 +24,7 @@
         "id": 6,
         "title": "Behind The Scenes",
         "description": "This video was part of a continuing series produced for the Minnesota Orchestra Education department that is used as a quick guide to the orchestra for students across the state and beyond. Discover the mallet percussion instruments with Jason Arkis, Minnesota Orchestra's Associate Principal Percussion and Timpani.",
-        "imageUrl": "Assets/JasonArkis.jpg",
+        "imageUrl": "https://frank-merk.github.io/bootcamp-03-homework/Assets/JasonArkis.jpg",
         "altTag": "Jason Arkis Mallet Instrument Demonstration",
         "iframeTag": "",
         "githubLink": "",
@@ -43,7 +34,7 @@
         "id": 7,
         "title": "Beethoven Piano Concerto",
         "description": "Jon Kimura Parker collaborated with us on a first-of-its-kind video project - a remotely recorded performance of Beethoven's First Piano Concerto, featuring musicians of the Minnesota Orchestra. This was a very challenging project to put together, and I'm very proud of how it turned out.",
-        "imageUrl": "Assets/JackieParker.jpg",
+        "imageUrl": "https://frank-merk.github.io/bootcamp-03-homework/Assets/JackieParker.jpg",
         "altTag": "Beethoven Piano Concerto performed by Jon Kimura Parker",
         "iframeTag": "",
         "githubLink": "",

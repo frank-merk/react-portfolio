@@ -7,6 +7,8 @@ import Coding from "./Coding";
 import Videos from "./Videos";
 import MNOrch from "./MNOrch";
 import Recordings from "./Recordings";
+import { Container, Row, Col } from 'react-bootstrap'
+import "./style.css"
 class Projects extends Component {
     state = {
       codingProjects,
@@ -17,22 +19,71 @@ class Projects extends Component {
   
     render() {
       return (
-     <div>
+        <div>
+     
+       <Container>
+       <h2>GitHub Projects</h2><Row>
           {this.state.codingProjects.map(project => (
-            <div key={project.id}>
-            <br></br>
+            
+            <Col>
             <Coding
             id={project.id}
             title={project.title}
             description={project.description}
             imageUrl={project.imageUrl}
             liveLink={project.liveLink}
-            githubLink={project.githublink}
+            githubLink={project.githubLink}
             />
-            <br></br>
-            </div>
+            </Col>
+            
+          
           ))}
-     </div>
+         </Row> </Container>
+     
+     <Container><h2>Minnesota Orchestra Projects</h2>
+     <Row>
+     {this.state.MNOrchProjects.map(project => (
+       <Col>
+       <MNOrch
+       id={project.id}
+       title={project.title}
+       description={project.description}
+       imageUrl={project.imageUrl}
+       liveLink={project.liveLink}
+       githubLink={project.githublink}
+       />
+       </Col>
+     ))}
+     </Row>
+     </Container>
+     <h2>Recordings</h2>
+     {this.state.recordingProjects.map(project => (
+       <div key={project.id}>
+       <br></br>
+       <Recordings
+       id={project.id}
+       iframeTag={project.iframeTag}
+       title={project.title}
+       />
+       <br></br>
+       </div>
+     ))}
+     <h2>Videos</h2>
+     <Container>
+       <Row>
+     {this.state.videoProjects.map(project => (
+       <div key={project.id}>
+       <br></br>
+       
+       <Videos
+       id={project.id}
+       iframeTag={project.iframeTag}
+       title={project.title}
+       />
+       <br></br>
+       </div>
+     ))}</Row></Container>
+</div>
       );
     }
   }

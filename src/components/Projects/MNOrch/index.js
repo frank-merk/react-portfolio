@@ -1,20 +1,18 @@
 
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap'
 
 function MNOrch(props) {
     return(
-        console.log("Hello")
+        <div>
+              <a href={props.liveLink} target="_blank" title={props.title}><img src={props.imageUrl} alt={props.title}/></a> <br /><br />
+
         
+                <h2>{props.title}</h2>
+                <p>{props.description}</p>
+                <p><a href={props.liveLink} title={props.title} target="_blank">Check it out &gt;</a></p>
+        </div>
     )
 }
 
 export default MNOrch;
-
-// "id": 3,
-//         "title": "Work Day Scheduler App",
-//         "description": "This project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code, powered by HTML, CSS, jQuery, and a third party time-keeping API. The user should see the current date, and a calendar time-block with inputs for scheduling each hour. User input is stored to local storage. Those elements should be dynamically styled relative to the current time of day. The original project called to use moment.js, but I chose to use another recommended platform, luxon.",
-//         "imageUrl": "https://raw.githubusercontent.com/frank-merk/05-Third-Party-APIs-Assignment/main/Assets/WorkDayScheduler1.PNG",
-//         "altTag": "Third Party API Assignment",
-//         "iframeTag": "",
-//         "githubLink": "https://github.com/frank-merk/05-Third-Party-APIs-Assignment",
-//         "liveLink": "https://frank-merk.github.io/05-Third-Party-APIs-Assignment/"

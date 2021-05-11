@@ -3,7 +3,7 @@
       "id": 1,
       "title": "reel2real",
       "description": "My project 2 was a group collaboration to create a musical vision board for a user to organize records using node, express, and MySQL. Reel2real uses the Discogs API to get record data, and node and express to manipulate it. Users can sign up, login/out, search a records database by artist and fill out crates of records they want or have. Future development goals would be a functional shop, better user search and customization, and integrating the Reverb API to make Reel2real a one stop shop for music lovers.",
-      "imageUrl": "Assets/real2real.png",
+      "imageUrl": "https://frank-merk.github.io/bootcamp-03-homework/Assets/real2real.png",
       "altTag": "Third Party API Assignment",
       "iframeTag": "",
       "githubLink": "https://github.com/CaitlinCollins/reel2real",

@@ -2,7 +2,13 @@ import React from "react";
 
 function Recordings(props) {
     return(
-        console.log("Hello")
+        <section className="row">
+          <div className="col-md-4">
+              <p>
+                  <iframe className="spotify" src = {props.iframeTag} allowfullscreen allow="encrypted-media"></iframe>
+              </p>
+            </div>
+        </section>
     )
 }
 
