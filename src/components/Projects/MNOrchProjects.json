@@ -1,24 +1,4 @@
 [
-    {
-      "id": 1,
-      "title": "reel2real",
-      "description": "My project 2 was a group collaboration to create a musical vision board for a user to organize records using node, express, and MySQL. Reel2real uses the Discogs API to get record data, and node and express to manipulate it. Users can sign up, login/out, search a records database by artist and fill out crates of records they want or have. Future development goals would be a functional shop, better user search and customization, and integrating the Reverb API to make Reel2real a one stop shop for music lovers.",
-      "imageUrl": "Assets/real2real.png",
-      "altTag": "Third Party API Assignment",
-      "iframeTag": "",
-      "githubLink": "https://github.com/CaitlinCollins/reel2real",
-      "liveLink": "https://reel2real.herokuapp.com/"
-    },
-    {
-        "id": 2,
-        "title": "ToonyMoodz",
-        "description": "ToonyMoodz is an app that brings you your daily forecast with a side of tunes! This app allows the user to input their current location (or any location) and get current weather data along with a clip of a song that matches the mood/feel of their daily forecast. This app utilizes multiple APIs, including Google Maps and Deezer, and libraries to achieve an accurate, responsive, and sleek feel for the user.",
-        "imageUrl": "https://user-images.githubusercontent.com/74335621/106691174-aace1900-6598-11eb-99b4-f45d4f942d7c.png",
-        "altTag": "ToonyMoodz App",
-        "iframeTag": "",
-        "githubLink": "https://github.com/frank-merk/Team-Fresh-Prince-ToonyMoodz-App",
-        "liveLink": "https://frank-merk.github.io/Team-Fresh-Prince-ToonyMoodz-App/"
-      },
       {
         "id": 3,
         "title": "Work Day Scheduler App",
@@ -61,54 +41,12 @@
       },
       {
         "id": 7,
-        "title": "Behind The Scenes",
+        "title": "Beethoven Piano Concerto",
         "description": "Jon Kimura Parker collaborated with us on a first-of-its-kind video project - a remotely recorded performance of Beethoven's First Piano Concerto, featuring musicians of the Minnesota Orchestra. This was a very challenging project to put together, and I'm very proud of how it turned out.",
         "imageUrl": "Assets/JackieParker.jpg",
         "altTag": "Beethoven Piano Concerto performed by Jon Kimura Parker",
         "iframeTag": "",
         "githubLink": "",
         "liveLink": "https://minnesotaorchestra.org/blog/596-kimura-parker-beethoven"
-      },
-      {
-        "id": 8,
-        "title": "General B and The Wiz",
-        "altTag": "General B and The Wiz",
-        "iframeTag": "https://open.spotify.com/embed/album/5AxZsyjG2IbQpsTY29EM9E"
-      },
-      {
-        "id": 9,
-        "title": "The Maytags",
-        "altTag": "The Maytags",
-        "iframeTag": "https://open.spotify.com/embed/album/0s10a7L0yoYPZpvBazld7v"
-      },
-      {
-        "id": 10,
-        "title": "Purple Funk Metropolis",
-        "altTag": "Purple Funk Metropolis",
-        "iframeTag": "https://open.spotify.com/embed/album/6gxpzXDAOSGBxNGjFW7Tsm"
-      },
-      {
-        "id": 11,
-        "title": "General B and The Wiz",
-        "altTag": "General B and The Wiz",
-        "iframeTag": "https://www.youtube.com/embed/OzfnQlCF7uA"
-      },
-      {
-        "id": 12,
-        "title": "Water Colors",
-        "altTag": "Water Colors",
-        "iframeTag": "https://www.youtube.com/embed/IYZT5ptz1hk"
-      },
-      {
-        "id": 13,
-        "title": "4otf",
-        "altTag": "4otf",
-        "iframeTag": "https://www.youtube.com/embed/fzQi_jcrETQ"
-      },
-      {
-        "id": 14,
-        "title": "The Maytags",
-        "altTag": "The Maytags",
-        "iframeTag": "https://www.youtube.com/embed/uLuDFKaHm5M"
       }
   ]

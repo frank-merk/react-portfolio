@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "reel2real",
+      "description": "My project 2 was a group collaboration to create a musical vision board for a user to organize records using node, express, and MySQL. Reel2real uses the Discogs API to get record data, and node and express to manipulate it. Users can sign up, login/out, search a records database by artist and fill out crates of records they want or have. Future development goals would be a functional shop, better user search and customization, and integrating the Reverb API to make Reel2real a one stop shop for music lovers.",
+      "imageUrl": "Assets/real2real.png",
+      "altTag": "Third Party API Assignment",
+      "iframeTag": "",
+      "githubLink": "https://github.com/CaitlinCollins/reel2real",
+      "liveLink": "https://reel2real.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "title": "ToonyMoodz",
+        "description": "ToonyMoodz is an app that brings you your daily forecast with a side of tunes! This app allows the user to input their current location (or any location) and get current weather data along with a clip of a song that matches the mood/feel of their daily forecast. This app utilizes multiple APIs, including Google Maps and Deezer, and libraries to achieve an accurate, responsive, and sleek feel for the user.",
+        "imageUrl": "https://user-images.githubusercontent.com/74335621/106691174-aace1900-6598-11eb-99b4-f45d4f942d7c.png",
+        "altTag": "ToonyMoodz App",
+        "iframeTag": "",
+        "githubLink": "https://github.com/frank-merk/Team-Fresh-Prince-ToonyMoodz-App",
+        "liveLink": "https://frank-merk.github.io/Team-Fresh-Prince-ToonyMoodz-App/"
+      },
+      {
+        "id": 3,
+        "title": "Work Day Scheduler App",
+        "description": "This project was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code, powered by HTML, CSS, jQuery, and a third party time-keeping API. The user should see the current date, and a calendar time-block with inputs for scheduling each hour. User input is stored to local storage. Those elements should be dynamically styled relative to the current time of day. The original project called to use moment.js, but I chose to use another recommended platform, luxon.",
+        "imageUrl": "https://raw.githubusercontent.com/frank-merk/05-Third-Party-APIs-Assignment/main/Assets/WorkDayScheduler1.PNG",
+        "altTag": "Third Party API Assignment",
+        "iframeTag": "",
+        "githubLink": "https://github.com/frank-merk/05-Third-Party-APIs-Assignment",
+        "liveLink": "https://frank-merk.github.io/05-Third-Party-APIs-Assignment/"
+      }
+    ]
