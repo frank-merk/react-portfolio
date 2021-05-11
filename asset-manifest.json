@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.16e06d22.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.cf014ac4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.cf014ac4.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js.map",
+    "static/css/2.88725fa5.chunk.css": "/react-portfolio/static/css/2.88725fa5.chunk.css",
+    "static/js/2.d2c9b769.chunk.js": "/react-portfolio/static/js/2.d2c9b769.chunk.js",
+    "static/js/2.d2c9b769.chunk.js.map": "/react-portfolio/static/js/2.d2c9b769.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.88725fa5.chunk.css.map": "/react-portfolio/static/css/2.88725fa5.chunk.css.map",
+    "static/css/main.16e06d22.chunk.css.map": "/react-portfolio/static/css/main.16e06d22.chunk.css.map",
+    "static/js/2.d2c9b769.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d2c9b769.chunk.js.LICENSE.txt",
+    "static/media/Smokey.32b27fb8.jpg": "/react-portfolio/static/media/Smokey.32b27fb8.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/bkgdImage.031c4630.jpg",
+    "static/media/font-awesome.min.css": "/react-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/stevens.c8694832.jpg": "/react-portfolio/static/media/stevens.c8694832.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bbf2bf3.js",
+    "static/css/2.88725fa5.chunk.css",
+    "static/js/2.d2c9b769.chunk.js",
+    "static/css/main.16e06d22.chunk.css",
+    "static/js/main.cf014ac4.chunk.js"
+  ]
+}
