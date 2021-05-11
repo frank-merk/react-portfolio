@@ -4,18 +4,14 @@ import SmokeyCat from '../Assets/Smokey.jpg';
 import StevensCat from '../Assets/stevens.jpg';
 import styles from "./style.css";
 import reactDom from 'react-dom';
-const image = { uri: "https://frank-merk.github.io/bootcamp-03-homework/Assets/bkgdImage.jpg" };
+const image = "https://frank-merk.github.io/bootcamp-03-homework/Assets/bkgdImage.jpg";
 
 
 function Home() {
   
       return (
         <div>
-     <View style = {styles.container}>
-         <ImageBackground source = {image} style = {styles.image}>
-             <Text style={styles.text}>Inside</Text>
-         </ImageBackground>
-     </View>
+     <img src = {image} title = "Hero Image" className = "hero-image" />
 
         <main className="container">
             <h1>About Me</h1>

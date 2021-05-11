@@ -22,7 +22,8 @@ class Projects extends Component {
         <div>
      
        <Container>
-       <h2>GitHub Projects</h2><Row>
+       <h2>GitHub Projects</h2>
+       <Row>
           {this.state.codingProjects.map(project => (
             
             <Col>
@@ -38,7 +39,8 @@ class Projects extends Component {
             
           
           ))}
-         </Row> </Container>
+         </Row> 
+         </Container>
      
      <Container><h2>Minnesota Orchestra Projects</h2>
      <Row>
@@ -56,32 +58,32 @@ class Projects extends Component {
      ))}
      </Row>
      </Container>
+     <Container>
+      <Row>
      <h2>Recordings</h2>
      {this.state.recordingProjects.map(project => (
-       <div key={project.id}>
-       <br></br>
+       <Col>
        <Recordings
        id={project.id}
        iframeTag={project.iframeTag}
        title={project.title}
        />
-       <br></br>
-       </div>
+       </Col>
+       
      ))}
+     </Row>
+     </Container>
      <h2>Videos</h2>
      <Container>
        <Row>
      {this.state.videoProjects.map(project => (
-       <div key={project.id}>
-       <br></br>
-       
+       <Col>
        <Videos
        id={project.id}
        iframeTag={project.iframeTag}
        title={project.title}
        />
-       <br></br>
-       </div>
+       </Col>
      ))}</Row></Container>
 </div>
       );

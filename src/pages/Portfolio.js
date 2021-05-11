@@ -1,24 +1,25 @@
 import React from "react";
 import Projects from "../components/Projects"
 import "./style.css";
+import { Container } from 'react-bootstrap'
 
 
 function Portfolio() {
   
       return (
         <div>
-        <main clasName="container">
-          <div className="row">
-            <div className="col-md-8">
+        <Container>
+        
               <h1>Portfolio</h1>
-            </div>
-          </div>
-      <hr />
+
+              <hr />
 
         <Projects />
 
       
-          </main>
+          
+     
+      </Container>
       </div>
       );
     }

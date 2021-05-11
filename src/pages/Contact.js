@@ -1,6 +1,4 @@
 import React from "react";
-import SmokeyCat from '../Assets/Smokey.jpg';
-import StevensCat from '../Assets/stevens.jpg';
 import "./style.css";
 
 
